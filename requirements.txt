@@ -6,3 +6,5 @@ scikit-learn
 sqlalchemy
 streamlit
 psycopg2-binary
+python-dotenv
+openpyxl
