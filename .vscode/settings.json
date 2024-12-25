@@ -1,8 +1,8 @@
 {
-    "files.autoSave": "onFocusChange",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "editor.formatOnSave": true,
-    "python.pythonPath": "C:/Users/hp/AppData/Local/Programs/Python/Python311/bin/python"
-  }
-  
+  "files.autoSave": "onFocusChange",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "editor.formatOnSave": true,
+  "python.pythonPath": "C:/Users/hp/AppData/Local/Programs/Python/Python311/bin/python",
+  "python.analysis.extraPaths": ["./scripts"]
+}
