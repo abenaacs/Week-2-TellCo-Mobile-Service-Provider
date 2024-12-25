@@ -152,6 +152,7 @@ def main():
         engagement_features = ["num_sessions", "total_duration", "total_data_volume"]
         user_behavior = aggregate_user_behavior()
         cleaned_data = clean_data(user_behavior)
+
         normalized_engagement = normalize_data(cleaned_data, engagement_features)
         clustered_data, _ = cluster_users(normalized_engagement, n_clusters=3)
 
